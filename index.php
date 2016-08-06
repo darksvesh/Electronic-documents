@@ -6,11 +6,11 @@ class Website{
 protected $AllowWithOutSSL = 0;//можно ли использовать сайт без SSL
 protected $SSLRedirect = "https://127.0.0.1"; //редирект на SSL
 protected $SiteURL = "https://127.0.0.1";	//место,где сайт
-protected $SiteHead = "Курсовик"; //заголовок веб страницы
-protected $SiteHat = "Курсовой проект по базам данных"; //шапка сайта
+protected $SiteHead = ""; //заголовок веб страницы
+protected $SiteHat = "Проект по базам данных"; //шапка сайта
 protected $SiteBoots = "Выполнил Свешников Владимир ЭВ-41 <br>DarkSvesh "; //башмаки
 protected $SiteMainPageHat = "СУБД: Электронные копии документов";
-protected $SiteMainPageText = "Данная система представляет собой аналог <br>СУБД \"Электронные копии документов\",<br> Комитета Управления Архивами,<br> Государственного Архива Вологодской Области,<br> отдела Информационно-Поисковых Систем";
+protected $SiteMainPageText = "Данная система представляет собой <br>СУБД \"Электронные копии документов\"";
 protected $SiteInternalPageHat = "Внутренняя страница";
 private $Username = ""; //юзер
 private $Password = ""; //пароль
