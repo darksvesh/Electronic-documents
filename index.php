@@ -10,7 +10,7 @@ protected $SiteHead = ""; //заголовок веб страницы
 protected $SiteHat = "Проект по базам данных"; //шапка сайта
 protected $SiteBoots = "Выполнил Свешников Владимир <br>DarkSvesh "; //башмаки
 protected $SiteMainPageHat = "СУБД: Электронные копии документов";
-protected $SiteMainPageText = "Данная система представляет собой <br>СУБД \"Электронные копии документов\"";
+protected $SiteMainPageText = "Данная система представляет собой аналог <br>СУБД \"Электронные документы\"";
 protected $SiteInternalPageHat = "Внутренняя страница";
 private $Username = ""; //юзер
 private $Password = ""; //пароль
@@ -45,7 +45,7 @@ private $FoundCathegory = 0;
 private $TagLine = "";
 //подключение к бд
 private $RootUsername = "root";
-private $RootPswd = "udavotis";
+private $RootPswd = "";
 private $Database = "mydb";
 private $Host = "127.0.0.1:3306";
 //проверка логин-пароля
